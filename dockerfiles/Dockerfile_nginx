@@ -1,0 +1,6 @@
+FROM ubuntu
+
+RUN apt-get update
+RUN apt-get install -y vim curl nginx
+RUN mkdir -p /home/ravi
+CMD /usr/sbin/nginx -g "daemon off;"
