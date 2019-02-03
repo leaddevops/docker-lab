@@ -5,7 +5,7 @@ services:
      ports:
        - "80"
      volumes:
-       - /home/docker/:/var/www/html
+       - /home/dockerlabs/dockerfiles/:/var/www/html
    app:
      image: tomcat
      ports:
